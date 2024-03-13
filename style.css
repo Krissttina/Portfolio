@@ -20,9 +20,14 @@ nav {
     justify-content: center;
     justify-content: space-evenly;
     font-weight: bold;
+    
 }
 
 /* Style of orange buttons */
+
+header{
+    background-image: url(/imgs/header-bgrd.jpg);
+}
 
 h1{
     padding-top: 220px;
@@ -42,6 +47,7 @@ h5{
     display: flex;
     justify-content: center;
     padding-top: 20px;
+    padding-bottom: 177px;
 }
 
 /* Style of orange buttons */
