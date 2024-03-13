@@ -101,3 +101,22 @@ p{
     justify-content: space-evenly;
     font-weight: bold;
 }
+
+/* Style of Projects section */
+
+#projects{
+    background-color: #F4F4F4;
+}
+
+.card{
+    padding: 10px;
+    background-color: #FFD57A;
+    border-radius: 3px;
+    box-shadow: 2px 10px 66px -30px rgba(97,97,97,1);
+}
+
+.card-group{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
