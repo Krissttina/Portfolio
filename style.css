@@ -162,6 +162,18 @@ p{
     background-color: #FFD967;
 }
 
+#skill_per{
+    display: flex;
+    list-style-type: none;
+    color: rgb(19, 19, 19);
+}
+
+.skill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /*Styling on Contacts section*/
 #contacts{
     background-color: #F4F4F4;
