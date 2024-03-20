@@ -169,7 +169,19 @@ p{
 }
 
 .contact{
-    width: 3%;
+    width: 8%;
+}
+
+#contact_icons{
+    display: flex;
+    list-style-type: none;
+    color: rgb(19, 19, 19);
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*Footer styling*/
