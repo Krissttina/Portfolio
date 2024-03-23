@@ -23,6 +23,10 @@ nav {
     cursor: pointer;
 }
 
+#nav li{
+    border-bottom: 3px solid #FFCC34;
+}
+
 #nav li:hover{
     border-bottom: 3px solid #111111;
 }
@@ -31,10 +35,12 @@ nav {
 
 header{
     background-image: url(/imgs/header-bgrd.png);
+    background-size: cover;
+    background-position: center;
 }
 
 h1{
-    padding-top: 220px;
+    padding-top: 180px;
     display: flex;
     justify-content: center;
     font-family: "Limelight", sans-serif;
