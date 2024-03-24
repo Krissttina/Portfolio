@@ -1,4 +1,8 @@
 /*global*/
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -240,31 +244,25 @@ p{
 
 /* back to top scroll btn */
 
-#to-top{
-    background: #e9e9e9;
-    position: fixed;
-    bottom: 16px;
-    right: 32px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 32px;
-    color: #111111;
-    text-decoration: none;
-    opacity: 0;
-    pointer-events: none;
-    transition: all .4s;
-}
+#scrollToTopBtn {
+    display: none; /* Hide the button by default */
+    position: fixed; /* Fixed position to keep the button visible even when scrolling */
+    bottom: 20px; /* Adjust the position from the bottom */
+    right: 20px; /* Adjust the position from the right */
+    z-index: 99; /* Ensure the button appears on top of other elements */
+    padding: 10px 20px; /* Padding for the button */
+    background-color: #FFCC34; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 3px; /* Rounded corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+  }
+  
+  #scrollToTopBtn:hover {
+    background-color: #FFA903;
+  }
 
-#to-top.active{
-    bottom: 32px;
-    pointer-events: auto;
-    opacity: 1;
-}
-
+  
 /*Footer styling*/
 
 footer{
