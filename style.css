@@ -48,7 +48,7 @@ h1{
     display: flex;
     justify-content: center;
     font-family: "Limelight", sans-serif;
-    font-size: 140px;
+    font-size: 120px;
 }
 
 h5{
@@ -239,8 +239,14 @@ p{
     cursor: pointer;
 }
 
-.icon li:hover{
-    border-bottom: 2px solid #111111;
+/* contacts hover effect */
+
+.icon p{
+    border-bottom: 2px solid #F4F4F4;
+}
+
+.icon p:hover{
+    border-bottom: 2px solid black;
 }
 
 /* back to top scroll btn */
