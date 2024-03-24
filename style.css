@@ -60,6 +60,12 @@ h5{
     padding-bottom: 177px;
 }
 
+/* links */
+a{
+    color: #111111;
+    text-decoration: none;
+}
+
 /* Style of orange buttons */
 
 button{
